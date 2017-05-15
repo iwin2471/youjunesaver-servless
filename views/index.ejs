@@ -21,13 +21,20 @@
 			<li>
 				<div class="userView">
 					<div class="background"></div>
-					<a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
+					<a href="#!user"><img class="circle" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAyOTkuOTk3IDI5OS45OTciIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDI5OS45OTcgMjk5Ljk5NzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI1MTJweCIgaGVpZ2h0PSI1MTJweCI+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTE0OS45OTYsMEM2Ny4xNTcsMCwwLjAwMSw2Ny4xNTgsMC4wMDEsMTQ5Ljk5N2MwLDgyLjgzNyw2Ny4xNTYsMTUwLDE0OS45OTUsMTUwczE1MC02Ny4xNjMsMTUwLTE1MCAgICBDMjk5Ljk5Niw2Ny4xNTYsMjMyLjgzNSwwLDE0OS45OTYsMHogTTE1MC40NTMsMjIwLjc2M3YtMC4wMDJoLTAuOTE2SDg1LjQ2NWMwLTQ2Ljg1Niw0MS4xNTItNDYuODQ1LDUwLjI4NC01OS4wOTdsMS4wNDUtNS41ODcgICAgYy0xMi44My02LjUwMi0yMS44ODctMjIuMTc4LTIxLjg4Ny00MC41MTJjMC0yNC4xNTQsMTUuNzEyLTQzLjczOCwzNS4wODktNDMuNzM4YzE5LjM3NywwLDM1LjA4OSwxOS41ODQsMzUuMDg5LDQzLjczOCAgICBjMCwxOC4xNzgtOC44OTYsMzMuNzU2LTIxLjU1NSw0MC4zNjFsMS4xOSw2LjM0OWMxMC4wMTksMTEuNjU4LDQ5LjgwMiwxMi40MTgsNDkuODAyLDU4LjQ4OEgxNTAuNDUzeiIgZmlsbD0iIzAwMDAwMCIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="
+						/></a>
 					<a href="#!name"><span class="white-text name">로그인 쳐해</span></a>
 					<a href="#!email"><span class="white-text email">안해? 하라고</span></a>
 				</div>
 			</li>
 			<li><a href="#!"><i class="material-icons">cloud</i>서버현황</a></li>
-			<li><a href="#!">Second Link</a></li>
+			<li id="usedHard">
+				<a>7GB/10GB</a>
+				<div class="progress">
+      		<div class="determinate" style="width: 70%"></div>
+  			</div>
+			</li>
+
 			<li>
 				<div class="divider"></div>
 			</li>
@@ -43,7 +50,7 @@
 				<ul id="nav-mobile" class="left">
 					<li><a href="#" data-activates="slide-out" id="menu"><i class="material-icons">list</i></a></li>
 					<li><a href="#">Components</a></li>
-					<li><a href="#">JavaScript</a></li>
+					<li><a href="#service">Service</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -59,11 +66,56 @@
 		<div class="section white">
 			<div class="row container">
 				<h2 class="header">sevless서비스란</h2>
-				<p class="grey-text text-darken-3 lighten-3">회원가입하는것만으로 클릭몇번으로 node.js기반 restful api를 쉽게 작성할수있고 512mb의 메모리와 10gb 무료 서버 공간을 얻을수있습니다.</p>
+				<p class="grey-text text-darken-3 lighten-3">회원가입과 클릭몇번으로 node.js기반 restful api를 쉽게 작성할수있습니다.</p>
 			</div>
 		</div>
 		<div class="parallax-container">
 			<div class="parallax"><img src="/images/EDRearch.png"></div>
+		</div>
+
+		<div class="section white" id="service">
+			<div class="row container">
+				<h2 class="header">제공되는 서비스</h2>
+
+				<div class="row">
+					<div class="col s12 m7">
+						<div class="card">
+							<div class="card-image">
+								<img src="images/server.png">
+							</div>
+							<div class="card-content">
+								<p>{}.iwin247.kr 서브도메인제공</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col s12 m7">
+						<div class="card">
+							<div class="card-image">
+								<img src="images/ram.png">
+							</div>
+							<div class="card-content">
+								<p>512mb memory</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col s12 m7">
+						<div class="card">
+							<div class="card-image">
+								<img src="images/harddisk.png">
+							</div>
+							<div class="card-content">
+								<p>10gb 공간</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 

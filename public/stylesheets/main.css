@@ -26,8 +26,19 @@ body {
   padding: 50px;
 }
 
-.title{
+#usedHard {
+  margin-left: 5px;
+}
 
+#usedHard > .progress{
+  margin-left: 30px;
+  width: 140px;
+}
+
+.left > li > a {
+  text-shadow: -1px 0 #000, 0 1px #000;
+	-moz-text-shadow: -1px 0 #000, 0 1px #000;
+	-webkit-text-shadow: -1px 0 #000, 0 1px #000;
 }
 
 .p1 {
